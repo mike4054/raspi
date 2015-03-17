@@ -153,8 +153,9 @@ install.txt
   
 ** SSH for "chris"
 
-- push SSH credentials from host machine
-  
+- push SSH credentials from host machine. First generate ssh-keys if needed. 
+
+  host> ssh-keygen
   host> ssh-copy-id chris@<yourpi>
   host> scp -r ~/.ssh yourpi:
 
@@ -192,7 +193,7 @@ install.txt
 
   # apt-get install i2c-tools python-smbus
   # usermod -a -G i2c chris
-  # i2c-detect -y 0 
+  # i2cdetect -y 1 #this is the nr. of the internal i2c device
 
 ** tmux setup (window title, use ctrl-b)
 
