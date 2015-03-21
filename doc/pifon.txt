@@ -101,7 +101,7 @@ pifon.txt - installation guide for your pifon setup
      
      > dpkg-buildpackage -rfakeroot -uc -b
      > cd ..
-     # dpkg -i ../darkice_1.0-999~mp3+1_armhf.deb
+     # dpkg -i darkice_1.0-999~mp3+1_armhf.deb
   
    * Setup ALSA config
    
