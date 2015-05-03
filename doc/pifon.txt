@@ -287,7 +287,7 @@ pifon.txt - installation guide for your pifon setup
   
   * make sure your user is in group 'i2c':
   
-    # usermod -G -a i2c chris
+    # usermod -a -G i2c chris
 
   
 6. Install pifon
